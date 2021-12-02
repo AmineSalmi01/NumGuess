@@ -1,0 +1,88 @@
+#pgain{
+    display: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif ;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("math-blackboard-texture-background-with-geometric-shapes-math-background-math-texture-geometric-lines-shapes-texture-besthqwallpapers.com-1366x768_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#h1{
+    font-size: 60px;
+    margin-bottom:20px;
+    color: #FF5C00;
+}
+#G{
+    margin-bottom: 110px;
+}
+#game{
+    border: solid 2px;
+    padding: 90px;
+    height: 400px;
+    position: relative;
+    background-color: white;
+    opacity: 0.7;
+}
+#input{
+    height: 40px;
+    width: 300px;
+    border-radius: 30px;
+    border: 0;
+    border: solid 1px;
+    padding-left: 10px;
+    opacity: 0.5;
+}
+#btn{
+    height: 42px;
+    width: 85px;
+    border-radius: 30px;
+    border: 0;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+    transition: 1s;
+}
+#remaining{
+    position: absolute;
+    top: 0%;
+    left: 2%;
+    color: red;
+    font-size: 23px;
+}
+#pgain{
+    height: 35px;
+    width: 85px;
+    border-radius: 30px;
+    border: 0;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+#pgain:hover{
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+    transition: 1s;
+}
+#pgain a{
+    color: white;
+}
+#pgain a:hover{
+    color: black;
+}
+#para{
+    color: #FF5C00;
+    font-size: 25px;
+}
+
